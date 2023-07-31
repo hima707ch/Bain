@@ -1,0 +1,11 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: white;
+}
+
+.icons {
+  color: #737373;
+  cursor: pointer;
+}

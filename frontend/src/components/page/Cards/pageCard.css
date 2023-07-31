@@ -1,0 +1,131 @@
+.banner {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.page-center {
+  max-width: 85rem;
+  height: 0px;
+  margin-left: auto;
+  margin-right: auto;
+
+  position: relative;
+  bottom: 600px;
+}
+
+.title-cont{
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  background-color: #e8e8e8;
+  width: 27%;
+  height: 252px;
+  margin-top: 13%;
+  margin-left: 6rem;
+  border-top: 3px solid #c00;
+  padding: 0rem 3rem;
+  font-size: 1.05rem;
+  font-family: "Graphik", Helvetica, sans-serif, Lucida Sans Unicode;
+}
+
+.save-but{
+  background: #c00;
+  color: #fff;
+  height : 50%;
+  margin-top: 1.8rem;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Graphik",Helvetica,sans-serif,Lucida Sans Unicode;
+  font-size: .875rem;
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 1.25rem 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 200ms;
+  border: 1px solid #c00;
+}
+
+.save-but:hover{
+  background-color: #000;
+  border-color: black;
+}
+
+.page-data {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  background-color: white;
+  position: relative;
+  top: -120px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 0rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: "Graphik", Helvetica, sans-serif, Lucida Sans Unicode;
+}
+
+.card-center-cont {
+  max-width: 85rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 7rem;
+  margin-bottom: 4rem;
+}
+
+.card-center-cont > h2 {
+  border-bottom: 1px solid #000;
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+
+.save-link-cont{
+  margin-top : 3rem;
+  display: flex;
+  font-family: "Graphik", Helvetica, sans-serif, Lucida Sans Unicode;
+  justify-content: space-between;
+  max-width: 100%;
+  padding : 1.5rem 3rem;
+  border : 1px solid black;
+  box-shadow: 0px 0px 15px 5px  rgb(0 0 0 / 20%);
+}
+
+.reset{
+  margin-top: 4rem;
+}
+
+
+
+@media (max-width: 825px) {
+  .title {
+    margin: 13% 4%;
+    width: 65%;
+  }
+  .title-cont{
+    flex-direction: column;
+  }
+  .save-but{
+    margin-top: 0rem;
+    margin-bottom: 2.4rem;
+  }
+  .reset{
+    margin-top: 4rem;
+  }
+  .page-data{
+    margin-left : 5%;
+    margin-right: 5%;
+  }
+  .card-center-cont{
+    padding : 1rem 2rem;
+  }
+  .save-title{
+    font-size: 2.2rem;
+  }
+  .save-link-cont {
+    flex-direction: column;
+  }
+}
