@@ -34,7 +34,7 @@ app.post("/search", (req,res)=>{
 
 })
 
-app.get("/home",(req,res)=>{
+app.get("/homeb",(req,res)=>{
   var data = {
   sec1 : {
     url1:
@@ -87,7 +87,7 @@ app.get("/home",(req,res)=>{
   res.send(data);
 });
 
-app.get("/about",(req,res)=>{
+app.get("/aboutb",(req,res)=>{
   var data = {
     bannerUrl:
       "https://www.bain.com/globalassets/about/about_us_black_choreograph_3_1.png?width=1950&height=650&mode=crop",
@@ -133,7 +133,7 @@ app.get("/about",(req,res)=>{
   res.send(data);
 });
 
-app.get("/careers",(req,res)=>{
+app.get("/careersb",(req,res)=>{
   var data = {
     bannerUrl:
       "https://www.bain.com/globalassets/careers/images/homepage/0.0-careers-homepage-1-3-1_rings.jpg?width=1920&height=610&mode=crop",
@@ -179,7 +179,7 @@ app.get("/careers",(req,res)=>{
   res.send(data);
 });
 
-app.get("/contact",(req,res)=>{
+app.get("/contactb",(req,res)=>{
   var data = {
     bannerUrl:
       "https://www.bain.com/globalassets/about/about_us_black_choreograph_3_1.png?width=1950&height=650&mode=crop",
@@ -224,7 +224,7 @@ app.get("/contact",(req,res)=>{
   res.send(data);
 });
 
-app.get("/digital",(req,res)=>{
+app.get("/digitalb",(req,res)=>{
   var data = {
     bannerUrl:
       "https://www.bain.com/globalassets/capabilities/hero-images---new/digital-transformation-1950x650.jpg?width=1950&height=650&mode=crop",
@@ -269,7 +269,7 @@ app.get("/digital",(req,res)=>{
   res.send(data);
 });
 
-app.get("/factory",(req,res)=>{
+app.get("/factoryb",(req,res)=>{
   var data = {
     bannerUrl:
       "https://www.bain.com/contentassets/76f4339c8cb44ce8a3d27658cd2ec0f2/v1-fof-ai_3-1.png?width=1950&height=650&mode=crop",
@@ -315,7 +315,7 @@ app.get("/factory",(req,res)=>{
   res.send(data);
 });
 
-app.get("/media",(req,res)=>{
+app.get("/mediab",(req,res)=>{
   var data = {
     bannerUrl:
       "https://www.bain.com/contentassets/295c0ec8d3a44800a37b41f96f1786d6/media-center-2021-3_1.jpg?width=1950&height=650&mode=crop",
@@ -361,7 +361,7 @@ app.get("/media",(req,res)=>{
   res.send(data);
 });
 
-app.get("/tourism",(req,res)=>{
+app.get("/tourismb",(req,res)=>{
   var data = {
     bannerUrl:
       "https://www.bain.com/contentassets/d3ed5d7bbe794faaaaa2e59cd11c19d7/16755-gettyimages-533767291-3-1.jpg?width=1950&height=650&mode=crop",
@@ -406,7 +406,7 @@ app.get("/tourism",(req,res)=>{
   res.send(data);
 });
 
-app.get("/redfolder",(req,res)=>{
+app.get("/redfolderb",(req,res)=>{
   var data = {
     bannerUrl:
       "https://www.bain.com/contentassets/d3ed5d7bbe794faaaaa2e59cd11c19d7/16755-gettyimages-533767291-3-1.jpg?width=1950&height=650&mode=crop",
