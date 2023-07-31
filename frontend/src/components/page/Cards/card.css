@@ -1,0 +1,47 @@
+.card-cont {
+  display: inline-block;
+  width: 25%;
+}
+
+.card > a{
+text-decoration : none;
+color : black;
+}
+
+.card {
+  width: 90%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1rem;
+  font-family: "Graphik", Helvetica, sans-serif, Lucida Sans Unicode;
+  font-weight: 400;
+}
+
+.p-red {
+  color: #c00;
+  font-weight: 500;
+}
+
+.card > a > img {
+  width: 100%;
+  display: inline-block;
+  object-fit: cover;
+}
+
+@media (max-width: 1100px) {
+  .card-cont {
+    width: 30%;
+  }
+}
+
+@media (max-width: 900px) {
+  .card-cont {
+    width: 47%;
+  }
+}
+
+@media (max-width: 700px) {
+  .card-cont {
+    width: 100%;
+  }
+}

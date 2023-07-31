@@ -1,0 +1,72 @@
+const data1 = [
+  "Atlanta",
+  "Austin",
+  "Bogota",
+  "Boston",
+  "Buenos Aires",
+  "Chicago",
+  "Dallas",
+  "Denver",
+  "Houston",
+  "Los Angeles",
+  "Mexico City",
+  "Minneapolis",
+  "Monterrey",
+  "New York",
+  "Rio de Janeiro",
+  "San Francisco",
+  "Santiago",
+  "São Paulo",
+  "Seattle",
+  "Silicon Valley",
+  "Toronto",
+  "Washington, DC"
+];
+
+const data2 = [
+  "Amsterdam",
+  "Athens",
+  "Berlin",
+  "Brussels",
+  "Copenhagen",
+  "Dusseldorf",
+  "Frankfurt",
+  "Helsinki",
+  "Istanbul",
+  "Kyiv",
+  "Lisbon",
+  "London",
+  "Madrid",
+  "Milan",
+  "Munich",
+  "Oslo",
+  "Paris",
+  "Rome",
+  "South Africa",
+  "Stockholm",
+  "Vienna",
+  "Warsaw",
+  "Zurich"
+];
+
+const data3 = [
+  "Bangkok",
+  "Beijing",
+  "Bengaluru",
+  "Ho Chi Minh City",
+  "Hong Kong",
+  "Jakarta",
+  "Kuala Lumpur",
+  "Manila",
+  "Melbourne",
+  "Mumbai",
+  "New Delhi",
+  "Perth",
+  "Seoul",
+  "Shanghai",
+  "Singapore",
+  "Sydney",
+  "Tokyo"
+];
+
+export { data1, data2, data3 };
