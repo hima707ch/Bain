@@ -224,7 +224,7 @@ app.get("/contact",(req,res)=>{
   res.send(data);
 });
 
-app.get("/digitalb",(req,res)=>{
+app.get("/digital",(req,res)=>{
   var data = {
     bannerUrl:
       "https://www.bain.com/globalassets/capabilities/hero-images---new/digital-transformation-1950x650.jpg?width=1950&height=650&mode=crop",
@@ -269,7 +269,7 @@ app.get("/digitalb",(req,res)=>{
   res.send(data);
 });
 
-app.get("/factoryb",(req,res)=>{
+app.get("/factory",(req,res)=>{
   var data = {
     bannerUrl:
       "https://www.bain.com/contentassets/76f4339c8cb44ce8a3d27658cd2ec0f2/v1-fof-ai_3-1.png?width=1950&height=650&mode=crop",
@@ -315,7 +315,7 @@ app.get("/factoryb",(req,res)=>{
   res.send(data);
 });
 
-app.get("/mediab",(req,res)=>{
+app.get("/media",(req,res)=>{
   var data = {
     bannerUrl:
       "https://www.bain.com/contentassets/295c0ec8d3a44800a37b41f96f1786d6/media-center-2021-3_1.jpg?width=1950&height=650&mode=crop",
@@ -361,7 +361,7 @@ app.get("/mediab",(req,res)=>{
   res.send(data);
 });
 
-app.get("/tourismb",(req,res)=>{
+app.get("/tourism",(req,res)=>{
   var data = {
     bannerUrl:
       "https://www.bain.com/contentassets/d3ed5d7bbe794faaaaa2e59cd11c19d7/16755-gettyimages-533767291-3-1.jpg?width=1950&height=650&mode=crop",
