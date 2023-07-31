@@ -17,7 +17,16 @@ var pages = [
   { "link" : "factory", "name" : "factory",},
   { "link" : "redfolder", "name" : "red folder",},
   { "link" : "home", "name" : "home"},
-]
+];
+
+if(process.env.NODE_ENV = "production"){
+  const path = require('path')
+
+  app.get('*',(req,res)=>{
+      app.use(express.static(path.resolve(__dirname,'frontend','build')))
+      res.sendFile(path.resolve(__dirname,'frontend','build','index.html'))
+  })
+}
 
 app.post("/search", (req,res)=>{
   const inp = req.body.value;
@@ -450,14 +459,7 @@ app.get("/redfolder",(req,res)=>{
   res.send(data);
 });
 
-if(process.env.NODE_ENV = "production"){
-  const path = require('path')
 
-  app.get('*',(req,res)=>{
-      app.use(express.static(path.resolve(__dirname,'frontend','build')))
-      res.sendFile(path.resolve(__dirname,'frontend','build','index.html'))
-  })
-}
 
 const PORT = process.env.PORT || 5000;
 
