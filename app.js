@@ -34,7 +34,7 @@ app.post("/search", (req,res)=>{
 
 })
 
-app.get("/homeb",(req,res)=>{
+app.get("/home",(req,res)=>{
   var data = {
   sec1 : {
     url1:
@@ -87,7 +87,7 @@ app.get("/homeb",(req,res)=>{
   res.send(data);
 });
 
-app.get("/aboutb",(req,res)=>{
+app.get("/about",(req,res)=>{
   var data = {
     bannerUrl:
       "https://www.bain.com/globalassets/about/about_us_black_choreograph_3_1.png?width=1950&height=650&mode=crop",
@@ -133,7 +133,7 @@ app.get("/aboutb",(req,res)=>{
   res.send(data);
 });
 
-app.get("/careersb",(req,res)=>{
+app.get("/careers",(req,res)=>{
   var data = {
     bannerUrl:
       "https://www.bain.com/globalassets/careers/images/homepage/0.0-careers-homepage-1-3-1_rings.jpg?width=1920&height=610&mode=crop",
@@ -179,7 +179,7 @@ app.get("/careersb",(req,res)=>{
   res.send(data);
 });
 
-app.get("/contactb",(req,res)=>{
+app.get("/contact",(req,res)=>{
   var data = {
     bannerUrl:
       "https://www.bain.com/globalassets/about/about_us_black_choreograph_3_1.png?width=1950&height=650&mode=crop",
@@ -406,7 +406,7 @@ app.get("/tourismb",(req,res)=>{
   res.send(data);
 });
 
-app.get("/redfolderb",(req,res)=>{
+app.get("/redfolder",(req,res)=>{
   var data = {
     bannerUrl:
       "https://www.bain.com/contentassets/d3ed5d7bbe794faaaaa2e59cd11c19d7/16755-gettyimages-533767291-3-1.jpg?width=1950&height=650&mode=crop",
